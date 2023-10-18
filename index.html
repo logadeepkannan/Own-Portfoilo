@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design | Phoenitomax</title>
+
+
+    <!--Custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!--Header Design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a> 
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello ,It's Me</h3>
+            <h1>Logadeep Kannan</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <div class="social-media">
+                <a href="https://www.facebook.com/logadeep.kannan/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/Logadeep_Kannan"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/logadeep_kannan/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/logadeep-kannan-5974131aa/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1TCuGzB1BuKev9_BmTFmbsLIicoNZy6nZ/view?usp=drive_link" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="Photo.png" alt="">
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Website_Profile_page-0001-removebg-preview.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span1>Me</span1></h2>
+            <h3>Frontend Developer</h3>
+            <p>i'm Logadeep S/O Mr.Kannan , Basically I'm more interested in Graphic Designing , Software Developing, 
+                YouTube Content Creating  and Web Designing . I have knowledge in HTML, css, Javascript, Python,  core 
+                Java, SQL Database . I practiced with a platform for like Vs code, pycharm, Notepad++, Eclipse for programminge And  I practiced Graphical Designing with a platform like Canva, Photoshop. I learning UI/UX Designing and practising in Figma Tool .
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!--service section design-->
+    <section class="skills" id="skills">    
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bxl-youtube'></i>
+                <h3>YouTuber</h3>
+                <p>I Started to create Digital Content adn Uploaded in YouTube.I posted Vlogging Videos.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxs-book'></i>
+                <h3>Poetry</h3>
+                <p>I Started to write Poetry Since My Childhood days.I had Written Many Poetry in various categories.An the Poetry writting is my passion. </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-film' ></i>
+                <h3>Short Films</h3>
+                <p>I was Passionated in Film making and I'm made 4 Short Film in various Genre.we created that in Midrange Smart Phone.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span1>Project</span1></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Design card.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Designs & Logo</h4>
+                    <p>I practice Graphical Designing Since 2021 I am done many projects for my College like Symposium posters ,ICETE International Conference bouchure and Many Certificates and Banners. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        
+            <div class="portfolio-box">
+                <img src="Machine Learning Model.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>MachineLearning Project</h4>
+                    <p>I had Completed My Final year projects in the Stream of Machine Learning and My Project name is Heart Disease Prediction</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        
+            <div class="portfolio-box">
+                <img src="Software project Card.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Programming Projects</h4>
+                    <p>I had Completed Python internship in alagappa University and I did Python project in Mini ATM Machine console programe. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://formsubmit.co/vr.tamilan001@gmail.com" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--footer design --> 
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Phoenitomax | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+     <!-- scroll reveal-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!--typed js-->
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+     <!-- Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Custom js-->
+    <script src="script.js"></script>
+</body>
+
+</html>
